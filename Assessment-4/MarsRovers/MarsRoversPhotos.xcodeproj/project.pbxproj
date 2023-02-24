@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9380E05C29A91F4A00B9D533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380E05B29A91F4A00B9D533 /* AppDelegate.swift */; };
+		9380E05E29A91F4A00B9D533 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380E05D29A91F4A00B9D533 /* SceneDelegate.swift */; };
+		9380E06329A91F4A00B9D533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9380E06129A91F4A00B9D533 /* Main.storyboard */; };
+		9380E06529A91F4C00B9D533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9380E06429A91F4C00B9D533 /* Assets.xcassets */; };
+		9380E06829A91F4C00B9D533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9380E06629A91F4C00B9D533 /* LaunchScreen.storyboard */; };
+		9380E07229A9241700B9D533 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380E07129A9241700B9D533 /* Rover.swift */; };
+		9380E07629A92E7D00B9D533 /* RoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380E07529A92E7D00B9D533 /* RoverController.swift */; };
+		9380E07829A92F3D00B9D533 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380E07729A92F3D00B9D533 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9380E05829A91F4A00B9D533 /* MarsRoversPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRoversPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9380E05B29A91F4A00B9D533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9380E05D29A91F4A00B9D533 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9380E06229A91F4A00B9D533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9380E06429A91F4C00B9D533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9380E06729A91F4C00B9D533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9380E06929A91F4C00B9D533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9380E07129A9241700B9D533 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		9380E07529A92E7D00B9D533 /* RoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverController.swift; sourceTree = "<group>"; };
+		9380E07729A92F3D00B9D533 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9380E05529A91F4A00B9D533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9380E04F29A91F4A00B9D533 = {
+			isa = PBXGroup;
+			children = (
+				9380E05A29A91F4A00B9D533 /* MarsRoversPhotos */,
+				9380E05929A91F4A00B9D533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9380E05929A91F4A00B9D533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9380E05829A91F4A00B9D533 /* MarsRoversPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9380E05A29A91F4A00B9D533 /* MarsRoversPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				9380E06F29A9201F00B9D533 /* Supporting Files */,
+				9380E07029A9203600B9D533 /* Storyboard */,
+				9380E07329A9241D00B9D533 /* Model */,
+				9380E07429A92E6400B9D533 /* Model Controller */,
+			);
+			path = MarsRoversPhotos;
+			sourceTree = "<group>";
+		};
+		9380E06F29A9201F00B9D533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9380E05B29A91F4A00B9D533 /* AppDelegate.swift */,
+				9380E05D29A91F4A00B9D533 /* SceneDelegate.swift */,
+				9380E06429A91F4C00B9D533 /* Assets.xcassets */,
+				9380E06929A91F4C00B9D533 /* Info.plist */,
+				9380E07729A92F3D00B9D533 /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9380E07029A9203600B9D533 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9380E06129A91F4A00B9D533 /* Main.storyboard */,
+				9380E06629A91F4C00B9D533 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9380E07329A9241D00B9D533 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9380E07129A9241700B9D533 /* Rover.swift */,
+			);
+			name = Model;
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9380E07429A92E6400B9D533 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9380E07529A92E7D00B9D533 /* RoverController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9380E05729A91F4A00B9D533 /* MarsRoversPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9380E06C29A91F4C00B9D533 /* Build configuration list for PBXNativeTarget "MarsRoversPhotos" */;
+			buildPhases = (
+				9380E05429A91F4A00B9D533 /* Sources */,
+				9380E05529A91F4A00B9D533 /* Frameworks */,
+				9380E05629A91F4A00B9D533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsRoversPhotos;
+			productName = MarsRoversPhotos;
+			productReference = 9380E05829A91F4A00B9D533 /* MarsRoversPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9380E05029A91F4A00B9D533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9380E05729A91F4A00B9D533 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9380E05329A91F4A00B9D533 /* Build configuration list for PBXProject "MarsRoversPhotos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9380E04F29A91F4A00B9D533;
+			productRefGroup = 9380E05929A91F4A00B9D533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9380E05729A91F4A00B9D533 /* MarsRoversPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9380E05629A91F4A00B9D533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9380E06829A91F4C00B9D533 /* LaunchScreen.storyboard in Resources */,
+				9380E06529A91F4C00B9D533 /* Assets.xcassets in Resources */,
+				9380E06329A91F4A00B9D533 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9380E05429A91F4A00B9D533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9380E07829A92F3D00B9D533 /* Constants.swift in Sources */,
+				9380E05C29A91F4A00B9D533 /* AppDelegate.swift in Sources */,
+				9380E05E29A91F4A00B9D533 /* SceneDelegate.swift in Sources */,
+				9380E07629A92E7D00B9D533 /* RoverController.swift in Sources */,
+				9380E07229A9241700B9D533 /* Rover.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9380E06129A91F4A00B9D533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9380E06229A91F4A00B9D533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9380E06629A91F4C00B9D533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9380E06729A91F4C00B9D533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9380E06A29A91F4C00B9D533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9380E06B29A91F4C00B9D533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9380E06D29A91F4C00B9D533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSQU7BHG9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MarsRoversPhotos/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SeaLions-CanCodeToo.MarsRoversPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9380E06E29A91F4C00B9D533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSQU7BHG9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MarsRoversPhotos/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SeaLions-CanCodeToo.MarsRoversPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9380E05329A91F4A00B9D533 /* Build configuration list for PBXProject "MarsRoversPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9380E06A29A91F4C00B9D533 /* Debug */,
+				9380E06B29A91F4C00B9D533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9380E06C29A91F4C00B9D533 /* Build configuration list for PBXNativeTarget "MarsRoversPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9380E06D29A91F4C00B9D533 /* Debug */,
+				9380E06E29A91F4C00B9D533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9380E05029A91F4A00B9D533 /* Project object */;
+}
